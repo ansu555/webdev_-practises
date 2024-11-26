@@ -1,0 +1,40 @@
+html
+{
+    background-color: black;
+}
+/*h1*/
+h1
+{
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 700;
+    color: whitesmoke;
+    font-size:69px;
+}
+/*image*/
+img
+{
+    height: 350px;
+    border:10px solid #FF5B22;
+    margin-top: 100px;
+    
+    
+}
+
+#one
+{
+color: whitesmoke;
+font-family: 'Caveat', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Raleway', sans-serif;
+}
+#two
+{
+    color: whitesmoke;
+    font-size: smaller; 
+}
+div
+{
+    text-align: center;
+}
