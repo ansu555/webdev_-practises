@@ -7,7 +7,7 @@ var accountPassword = "1232" /* prefer not to use var beacuse of the
  
 accountCity = "jaipur" // in js we can use veriable without declaring it bit not recomended
 
-let accountState; //value shoud be undefined in js no garbeg vlaue
+let accountState; //value shoud be undefined in js no garbeg vlau
 
 //accourntID = 2 //not allowed by node
 

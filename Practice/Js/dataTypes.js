@@ -15,6 +15,8 @@ let isLoggedIn = false
 //symbol => for unique value
 //object => collection of value
 
+
+//typeof use to identify the type of any datatypes
 console.log(typeof undefined ); //output undefined
 console.log(typeof null); // output object
 
