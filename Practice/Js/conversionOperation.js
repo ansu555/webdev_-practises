@@ -3,7 +3,7 @@ let score = "anik"
 console.log(typeof(score)); //console.log(typeof score); both are same //output string
 
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score) //converting string to number
 console.log(typeof valueInNumber);
 
 console.log(valueInNumber); 
@@ -53,7 +53,7 @@ let str3 = str1 + str2
 
 console.log(str3);
 
-console.log("1"+2); // => 12
+console.log("1"+ 2); // => 12
 console.log(1+"2"); // => 12
 console.log(1+2+"3"); // => 33
 console.log("1"+2+3); // => 123
