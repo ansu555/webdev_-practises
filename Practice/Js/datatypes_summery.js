@@ -29,4 +29,34 @@ const myFunction  = function(){
 }
 
 // Non premitive types return is always object
-// Return of function is object function
+// Return of function is object function  
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(primitive) send a copy, heap(Non Primitive) actural value
+
+
+//stack
+let myYoutubeNmae = "anik das "
+let anotheryoutubeName = myYoutubeNmae
+
+anotheryoutubeName = "chai aur code"
+
+console.log(myYoutubeNmae); // => anik das
+
+console.log(anotheryoutubeName); // => chai aur code
+
+//------------------------------------------------------------------------------------------
+
+//heap
+let user1 = {
+    userEmail :"anik2003#google.com",
+    upi:"1234"
+}
+
+let user2 = user1
+
+user2.userEmail = "anik2003#gmail.com"
+
+console.log(user1.userEmail); //anik2003#gmail.com
+console.log(user2.userEmail); //anik2003#gmail.com
