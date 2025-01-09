@@ -1,22 +1,21 @@
-//datatypes
+// ========================== Data Types Example ==========================
 
-const accourntID = 144553 //unchangable
-let accountEmail = "anik200365@gmail.com" // 
-var accountPassword = "1232" /* prefer not to use var beacuse of the 
-                              issue in block scope and functional scope */
- 
-accountCity = "jaipur" // in js we can use veriable without declaring it bit not recomended "var"
+const userID = 987654; // Unchangeable: A constant variable.
+let userEmail = "example_user@gmail.com"; // Can be reassigned later.
+var userPassword = "password123"; /* Avoid using `var` due to issues with block scope and 
+                                     functional scope; use `let` or `const` instead. */
 
-let accountState; //value shoud be undefined in js no garbeg vlau
+userCity = "Mumbai"; // Declaring a variable without `let`, `const`, or `var` (not recommended).
 
-//accourntID = 2 //not allowed by node because of const
+let userState; // Declared but uninitialized; default value will be `undefined`.
 
-console.log(accourntID);
+// userID = 123; // Uncommenting this line will throw an error because `const` variables cannot be reassigned.
 
+console.log(userID); // Logs the unchangeable `userID`.
 
-accountEmail ="anik562003@gmail.com"
-accountPassword = "123456"
-accountCity = "delhi"
+userEmail = "updated_user@gmail.com"; // Reassigning `let` variable.
+userPassword = "new_password456"; // Reassigning `var` variable.
+userCity = "Kolkata"; // Updating the variable declared without `var/let/const`.
 
-console.table([accourntID,accountEmail,accountPassword,accountCity,accountState]) /*table is used to display 
-data in table format */
+console.table([userID, userEmail, userPassword, userCity, userState]); 
+// Displays data in a table format.
