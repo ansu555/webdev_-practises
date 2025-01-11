@@ -41,6 +41,21 @@ console.log(myN2);
 console.log("original array", myArr);
 
 
+//--------------------------------------------------- part 2 ---------------------------------------------------------
+
+
+const marveHeros = ["thor","ironman","spiderman"]
+const dc = ["superman","aquaman","Batman"]
+
+// marveHeros.push(dc)
+// console.log(marveHeros);
+// console.log(marveHeros[3][1]);
+
+const allHeros=marveHeros.concat(dc) // concat return new array
+console.log(allHeros); 
+const allNerHeros = [...marveHeros, ...dc]
+
+console.log(allNerHeros);
 
 
 
