@@ -1,2 +1,4 @@
-const newString = gamename.substring(0,4)
-// console.log(newString);
+const newArr = myArr.join()
+// console.log(myArr);
+// console.log(newArr);
+// console.log(typeof newArr);
