@@ -1,6 +1,6 @@
 /*
 
-### **5:11 - Setting up environment**
+### 5:11 - Setting up environment**
 1. **Difference between `.js` and `.txt` files:**
    - `.js` files contain JavaScript code that can be executed.
    - `.txt` files are simply text files without executable code.
@@ -11,13 +11,13 @@
 
 ---
 
-### **16:53 - GitHub**
+### 16:53 - GitHub**
 1. **Code Setup:**
    - Use `Ctrl + Shift + P` to add a development configuration file to your project.
 
 ---
 
-### **27:14 - let, var, const**
+### 27:14 - let, var, const**
 1. **Variable Declaration Best Practices:**
    - **`const`** is used for variables that cannot be modified.
    - **`let`** is preferred for mutable variables.
@@ -27,7 +27,7 @@
 
 ---
 
-### **43:54 - Data Types (ECMA Standard)**
+### 43:54 - Data Types (ECMA Standard)**
 1. **Strict Mode (`use strict`)**: Helps to avoid mistakes and improve code quality.
 2. **Data Types:**
    - **Number**
@@ -46,7 +46,7 @@
 
 ---
 
-### **1:01:55 - Data Type Conversion**
+### 1:01:55 - Data Type Conversion**
 1. **Type Conversion (Explicit and Implicit):**
    - Implicit: `"33" => 33`
    - Explicit: `Number("33abc")` returns `NaN`.
@@ -58,7 +58,7 @@
 
 ---
 
-### **1:14:46 - Why String to Number**
+### 1:14:46 - Why String to Number**
 1. **Arithmetic Operations:**
    - `"1" + 2` results in `12` (string concatenation).
    - Prefix and postfix increment (`++`), like `++x` and `x++`.
@@ -69,7 +69,7 @@
 
 ---
 
-### **1:29:49 - Comparison of Data Types**
+### 1:29:49 - Comparison of Data Types**
 1. Comparison Operators:
    - `>`, `<`, `<=`, `>=`, `==`, `===`.
 
@@ -78,7 +78,7 @@
 
 ---
 
-### **1:38:38 - Data Type Summary**
+### 1:38:38 - Data Type Summary**
 1. **Primitive Types:** Passed by value (String, Number, Boolean, Undefined, Null, Symbol, BigInt).
 2. **Non-Primitive Types:** Passed by reference (Arrays, Objects, Functions).
 
@@ -89,13 +89,13 @@
 
 ---
 
-### **1:56:40 - Stack and Heap Memory**
+### 1:56:40 - Stack and Heap Memory**
 1. **Stack Memory:** Used for primitive data types (stored by value).
 2. **Heap Memory:** Used for non-primitive data types (stored by reference).
 
 ---
 
-### **2:06:34 - Strings in JavaScript**
+### 2:06:34 - Strings in JavaScript**
 1. **String Declaration:** Strings can be enclosed in single (`'`) or double (`"`) quotes.
 2. **String Methods:**
    - **Concatenation**: Can be done using `+` or template literals (backticks).
@@ -105,7 +105,7 @@
 
 ---
 
-### **2:29:17 - Number and Math in JavaScript**
+### 2:29:17 - Number and Math in JavaScript**
 1. **Number Methods:**
    - `toFixed()`: Limits the number of decimal places.
    - `toPrecision()`: Defines the total length (including decimals).
@@ -116,7 +116,7 @@
 
 ---
 
-### **2:52:34 - Date and Time in JavaScript**
+### 2:52:34 - Date and Time in JavaScript**
 1. **Date Object:**
    - JavaScript's `Date` objects represent a specific point in time (milliseconds since January 1, 1970, UTC).
    - Methods: `.toString()`, `.toLocaleString()`, `.getTime()`, etc.
