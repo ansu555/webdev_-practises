@@ -163,7 +163,6 @@ console.log(tinderUser.hasOwnProperty("isLogggedIn"));
 
 //------------------------------------------------------------- Part 3 -------------------------------------------------------------------------
 
-//destructuing in JSON API
 // **Destructuring in JavaScript**
 
 // **1. Object Destructuring:**
@@ -252,3 +251,9 @@ printUser({ id: 102, username: "hitesh" });
 // 5. Destructuring can be used with function parameters to enhance readability and reduce boilerplate code.
 
 
+//destructuing in JSON API
+
+{
+    
+
+}
