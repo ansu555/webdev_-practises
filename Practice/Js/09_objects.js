@@ -252,8 +252,3 @@ printUser({ id: 102, username: "hitesh" });
 
 
 //destructuing in JSON API
-
-{
-    
-
-}
