@@ -5,6 +5,7 @@ const myHeros = ['krish','saktiman'];
 const myArr2 = new Array(1,2,3,4);
 
 // Accessing elements:
+
 console.log(myArr[3]); // Output: 6
 
 // Array methods:
