@@ -21,7 +21,7 @@ const newString = gamename.substring(0, 4);
 // Extracts a substring from index 0 to 4 (exclusive). Negative values are treated as 0.
 console.log(newString); // Logs `anik`.
 
-const anotherString = gamename.slice(-7, 4); 
+const anotherString = gamename.slice(-19, 4); 
 // Extracts a portion of the string. Negative values count from the end of the string.
 console.log(anotherString); // Logs an empty string because the start index is greater than the end index.
 
