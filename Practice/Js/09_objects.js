@@ -29,7 +29,7 @@ console.log(typeof JsUser[mySym]); // Output: "string"
 
 // **Modifying Properties**
 JsUser.email = "chatGPT.com"; // Updates the "email" property to a new value.
-// Object.freeze(JsUser) // Uncommenting this will prevent any further modifications to the object.
+ Object.freeze(JsUser) // Uncommenting this will prevent any further modifications to the object.
 JsUser.email = "ansu123@gmail.com"; // Since Object.freeze is commented, this modification works.
 console.log(JsUser);
 // Output: The entire `JsUser` object with the updated "email" property.
