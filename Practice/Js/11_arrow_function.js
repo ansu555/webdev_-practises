@@ -8,11 +8,11 @@ const user={
     }
 }
 
-// user.welcomeMessage()
-// user.username="das"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username="das"
+user.welcomeMessage()
 
-// console.log(this);
+console.log(this);
 
 function aurbolo(){
     // let username="anik"
@@ -20,15 +20,27 @@ function aurbolo(){
 }
 aurbolo()
 
-// const aur=function(){
-//     let userName="anik"
-//     console.log(this.userName);
+const aur=function(){
+    let userName="anik"
+    console.log(this.userName);
     
-// }
+}
 
 const chai=()=>{
 
     let userName="anik"
-    console.log();
-    
+    console.log(this);
 }
+
+//chai()
+
+//explicit return
+const addTwo =(num1,num2)=>{
+    return num1+num2
+}
+console.log(addTwo(3,5));
+
+// implisit return ?
+const addThree =(num1,num2)=> (num1+num2)
+
+console.log();
