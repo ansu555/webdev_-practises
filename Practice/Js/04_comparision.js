@@ -11,4 +11,4 @@ console.log(undefined < 0);
 
 // ===
 
-console.log("2" === 2) // it not only check the value but also the type.
+console.log("2" === 2) // it not only check the value but also the type
