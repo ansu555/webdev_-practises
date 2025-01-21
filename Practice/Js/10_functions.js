@@ -65,7 +65,7 @@ function returnSecondValue(getArray) {
 
 // Example: returnSecondValue(myNewArray) -> Returns 400
 console.log(returnSecondValue([200, 400, 500, 1000])); // Outputs 400
-
+ 
 
 //-------------------------------------------------------------- Scope ---------------------------------------------------------------------------
 
