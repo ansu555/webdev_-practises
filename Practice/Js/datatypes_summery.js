@@ -29,7 +29,7 @@ const myFunction  = function(){
 }
 
 // Non premitive types return is always object
-// Return of function is object function  
+// Return of function is object function    
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -37,7 +37,7 @@ const myFunction  = function(){
 
 
 //stack
-let myYoutubeNmae = "anik das "
+let myYoutubeNmae = "anik das "                                                                     
 let anotheryoutubeName = myYoutubeNmae
 
 anotheryoutubeName = "chai aur code"

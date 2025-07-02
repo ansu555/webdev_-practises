@@ -46,3 +46,4 @@ console.log(url.includes('rog'));
 console.log(gamename.split('-')); 
 // Splits the string into an array using `-` as the delimiter.
 // Logs `['anik2003', 'valo', 'chele']`.
+
