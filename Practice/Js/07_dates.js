@@ -17,7 +17,7 @@ console.log(myCreatedDate.getTime()); // Returns the timestamp of `myCreatedDate
 console.log(Math.floor(Date.now() / 1000)); // Returns the current timestamp in seconds (without milliseconds). Example: 1683448768
 
 let newDate = new Date();
-console.log(newDate.getMonth() + 1); // Gets the month (0-based index), so add 1 to get the human-readable month. Example: 1 for January.
+console.log(newDate.getMonth()+1); // Gets the month (0-based index), so add 1 to get the human-readable month. Example: 1 for January.
 console.log(newDate.getDay()); // Returns the day of the week (0 is Sunday, 1 is Monday, etc.). Example: 4 for Thursday.
 
 newDate.toLocaleDateString('default', { weekday: "long" }); // Formats the date to show the full weekday name (e.g., "Thursday").
