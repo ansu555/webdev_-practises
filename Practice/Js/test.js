@@ -1,25 +1,17 @@
-// const gamename = new String('anik2003-valo-chele');
+const temp = "Anik valo chele";
+
+const url = "https://myPortfolio/Anik%20Das";
+
+console.log(temp.replace('valo','baje'));
+
+console.log(temp.split(' '));
+
+console.log(temp.split(' ')[0]);
+
+console.log(temp.toUpperCase());
+console.log(temp.charAt(3)); // Finds the character at index 3 (0-based indexing).
+console.log(temp.indexOf('k')); // Finds the position of the character 'k'. 
+
+console.log(url.includes('rog'));
 
 
-// const anotherString = gamename.slice(-19, 4); 
-// // Extracts a portion of the string. Negative values count from the end of the string.
-// console.log(anotherString); // Logs an empty string because the start index is greater than the end index.
-
-// const myArr = [0,1,2,6,7,8];
-// console.log(myArr.includes(9));
-
-// const newArr = myArr.join();
-// console.log(newArr); // Output: "0,1,2,6,7,8"
-// console.log(typeof newArr); 
-
-// console.log(typeof Array);
-
-function loginUserMessage(username = "sam") {
-    if (!username) {
-        console.log("Please enter a username"); // Handles empty username
-        return;
-    }
-    return `${username} just logged in`; // Message showing login
-}
-
-console.log(loginUserMessage("anik"))

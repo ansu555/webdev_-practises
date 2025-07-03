@@ -3,7 +3,7 @@
 const name = "anik";
 const repocount = 50;
 // Using template literals for cleaner string concatenation.
-console.log(`Hello, my name is ${name} and my repo count is ${repocount}`);
+console.log(`Hello, my name is ${name} and my repo count is ${repocount}`); 
 
 // ========================== String Object ==========================
 
